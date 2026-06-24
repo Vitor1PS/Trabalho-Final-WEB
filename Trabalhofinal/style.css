@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.topo {
+    background-color: rgb(110, 7, 11);
+    position: relative; /* Essencial: diz para a logo se basear neste contêiner */
+    text-align: center; /* Centraliza horizontalmente o que estiver dentro */
+    height: 115px; /* Trava a altura do cabeçalho */
+}
+
+.logo {
+    position: absolute; 
+    left: 20px; 
+    top: 0;
+}
+
+.logo img {
+    height: 115px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    line-height: 115px; 
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.menu li a:hover{
+    color: #000000;
+    border-bottom:solid 2px #000000;
+}
+
+.banner_principal{
+	padding: 60px 0;
+	background: url(imagens/banner.png) no-repeat right;
+    background-size: auto 130%;
+    height: 600px;
+    background-size: cover;
+}
+
+.conteudo_banner {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 600px;
+    gap: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);  
+
+    margin-left: 50px;
+    font-family: 'arial', sans-serif;
+    font-size: 25px; 
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    text-shadow: 
+    0 0 10px rgba(226, 45, 45, 0.7),
+    0 0 20px rgba(226, 45, 45, 0.7),
+    0 0 30px rgba(226, 45, 45, 0.7);
+    }
