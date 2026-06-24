@@ -6,9 +6,9 @@ body {
 
 .topo {
     background-color: rgb(110, 7, 11);
-    position: relative; /* Essencial: diz para a logo se basear neste contêiner */
-    text-align: center; /* Centraliza horizontalmente o que estiver dentro */
-    height: 115px; /* Trava a altura do cabeçalho */
+    position: relative; 
+    text-align: center; 
+    height: 115px; 
 }
 
 .logo {
@@ -59,7 +59,6 @@ a {
     border-radius: 20px;
     padding: 40px;
     max-width: 600px;
-    gap: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);  
 
     margin-left: 50px;
