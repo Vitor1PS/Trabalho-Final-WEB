@@ -5,3 +5,5 @@
  2-V2 - Adicinei o botão assinar e o botão do whatsapp
 
  V3 - Card dos planos
+
+v4- selos e contato no final
