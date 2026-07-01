@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style type="text/css">
+		body{
+ 			margin: 0;
+ 			font-family: arial, sans-serif;
+		}
+		.contato{
+			width: 600px;
+			background-color: rgb(110, 7, 11);
+			margin: 100px auto;
+			padding: 25px 10px 25px 10px;
+			border-radius: 20px;
+			box-shadow: 3px 3px 10px;
+			border: 2px solid #fff;
+		}
+		.contato h1, p, button{
+			text-align: center;
+			color: rgb(255,255,255);
+		}
+		.contato label{
+			margin-left: 30px;
+			color: rgb(255,255,255);
+		}
+		.contato input{
+			display: block;
+			margin: 10px auto 20px auto;
+			padding: 10px 20px;
+			width: 90%;
+			border-radius: 200px;
+			box-sizing: border-box;
+			font-size: 100%;
+		}
+		.contato button{
+			display: inline-block;
+			margin: 20px 0px 0px 30px;
+			padding: 10px 50px;
+			border-radius: 200px;
+			background-color: rgb(173, 36, 42);
+			border: none;
+		}
+		.contato button:hover{
+  			background-color: #fff;
+  			cursor: pointer;
+  			color: rgb(110, 7, 11);
+		}
+		.contato p{
+			border-bottom: white solid;
+			padding-bottom: 20px;
+		}
+		.contato h1{
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form class="contato">
+		<h1>WhatsApp</h1>
+		<p>Preencha o formulário abaixo para entrar em contato conosco via WhatsApp</p>
+
+		<label for="nome">Seu nome
+			<input type="text" id="nome" name="nome" required>
+		</label>
+		<label for="email">Seu e-mail
+			<input type="email" id="email" name="email" required>
+		</label>
+		<label for="telefone">Seu telefone
+			<input type="tel" id="telefone" name="telefone" required>
+		</label>
+		<label for="endereço">Seu endereço (opcional)
+			<input type="text" id="endereço" name="endereço">
+		</label>
+
+		<button>Enviar</button>
+	</form>
+</body>
+</html>
